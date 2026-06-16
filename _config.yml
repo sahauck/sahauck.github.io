@@ -203,7 +203,6 @@ exclude:
   - package-lock.json
   - _pages/about_einstein.md
   - assets/jupyter/
-  - index.md
   - purgecss.config.js
   - README.md
   - readme_preview/
