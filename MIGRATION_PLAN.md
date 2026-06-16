@@ -25,7 +25,7 @@ Recommended al-folio version to pin to: **v0.16.3** (latest stable as of this wr
 
 ## Phase 1 — Theme integration into existing repo
 
-4. **[CC]** Fetch al-folio `v0.16.3` and merge its file structure into `sahauck.github.io`, preserving existing git history. This includes `_layouts/`, `_includes/`, `_sass/`, `_plugins/`, `_data/`, `assets/`, `Gemfile`, `Gemfile.lock`, `_config.yml` (template), and `.github/workflows/`.
+4. ~~**[CC]** Fetch al-folio `v0.16.3` and merge its file structure into `sahauck.github.io`, preserving existing git history. This includes `_layouts/`, `_includes/`, `_sass/`, `_plugins/`, `_data/`, `assets/`, `Gemfile`, `Gemfile.lock`, `_config.yml` (template), and `.github/workflows/`.~~ **DONE 2026-06-16.** Branch: `al-folio-migration`. All demo content directories also brought in (to be stripped in step 6). Three `_config.yml` tweaks needed for local build on Windows: `imagemagick.enabled: false` (not installed), `assets/jupyter/` added to `exclude:` (nbconvert not installed), `index.md` added to `exclude:` (conflicts with `_pages/about.md` permalink `/`). MSYS2 DevKit not pre-installed — required `ridk install 1 2 3` before `bundle install`. Local build passes (`bundle exec jekyll build`, exit 0) in ~50s. Sass deprecation warnings and Terser stderr are non-fatal.
 
 5. **[YOU]** If Phase 0 revealed Pages is set to "Deploy from a branch," change it to **"GitHub Actions"** in repo Settings now that the workflow files exist from step 4.
 
