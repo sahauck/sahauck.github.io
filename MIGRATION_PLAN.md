@@ -29,9 +29,9 @@ Recommended al-folio version to pin to: **v0.16.3** (latest stable as of this wr
 
 5. **[YOU]** If Phase 0 revealed Pages is set to "Deploy from a branch," change it to **"GitHub Actions"** in repo Settings now that the workflow files exist from step 4.
 
-6. **[CC]** Strip out al-folio demo content you won't use: sample blog posts, sample projects, sample books/teaching collection entries, demo images. Disable unused collections (`books`, `teaching`, `news` if you don't want a homepage feed) in `_config.yml`.
+6. ~~**[CC]** Strip out al-folio demo content you won't use: sample blog posts, sample projects, sample books/teaching collection entries, demo images. Disable unused collections (`books`, `teaching`, `news` if you don't want a homepage feed) in `_config.yml`.~~ **DONE 2026-06-16.** Removed all demo posts/projects/books/teachings/news, demo pages, demo images and media. Cleared papers.bib. Disabled books/projects/teachings collections; news kept with output:false. External RSS sources cleared.
 
-7. **[YOU + guidance]** Run a local build (`bundle exec jekyll serve`) or push and check the Actions run, to confirm the bare theme deploys successfully *before* adding your content. This establishes a known-good baseline.
+7. ~~**[YOU + guidance]** Run a local build (`bundle exec jekyll serve`) or push and check the Actions run, to confirm the bare theme deploys successfully *before* adding your content. This establishes a known-good baseline.~~ **DONE 2026-06-16.** Actions build passes; sahauck.github.io deploys al-folio with correct url/baseurl and working navigation.
 
 ---
 
