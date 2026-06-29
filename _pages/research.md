@@ -9,7 +9,7 @@ nav_order: 2
 
 In the Planetary Geodynamics Lab we tend to focus on investigating problems aimed at understanding internal structure and evolution of planets and moons.
 
-## Planeary interiors
+## Planetary interiors
 
 The history a planetary body experiences is strongly dependent upon the amount of heat it has and how it cools. On Earth, plate tectonics is an efficient process for cooling the planet – Venus lacks plate tectonics, and this is likely one reason for the differences between them, despite similar size and composition.
 
@@ -19,7 +19,7 @@ Previously, we have focused on modeling heat transport in planets to address bas
 - Understanding the feedbacks between crustal formation and mantle convection, particularly on Mars and Venus.
 - Addressing the ability to constrain the thermal history of Mercury using strain recorded in surface tectonic features.
 - Understanding the mechanisms that could drive magnetic fields on icy satellites.
-- Explorting the consequences of the nucleation barrier for crystallization of planetary cores.
+- Exploring the consequences of the nucleation barrier for crystallization of planetary cores.
 
 ## Planetary tectonics
 
