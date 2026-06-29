@@ -1,97 +1,62 @@
-- title: General Information
+- title: Current Position
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Title
+      value: Professor and Chair, Planetary Geodynamics
+    - name: Department
+      value: <a href="https://eeps.case.edu/">Earth, Environmental, and Planetary Sciences</a>
+    - name: Institution
+      value: <a href="https://www.case.edu/">Case Western Reserve University</a>
+    - name: ORCID
+      value: <a href="https://orcid.org/0000-0001-8245-146X">0000-0001-8245-146X</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Ph.D., Earth and Planetary Sciences
+      institution: Washington University in St. Louis
+      year: 2001
+    - title: A.M., Earth and Planetary Sciences
+      institution: Washington University in St. Louis
+      year: 1998
+    - title: B.A.E.M., Aerospace Engineering and Mechanics
+      institution: University of Minnesota
+      year: 1996
 
-- title: Experience
+- title: Academic Appointments
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Department Chair
+      institution: Case Western Reserve University
+      year: 2019 – Present
+    - title: Professor
+      institution: Case Western Reserve University
+      year: 2015 – Present
+    - title: Associate Professor
+      institution: Case Western Reserve University
+      year: 2009 – 2015
+    - title: Assistant Professor
+      institution: Case Western Reserve University
+      year: 2003 – 2009
+    - title: Postdoctoral Associate
+      institution: Carnegie Institution of Washington
+      year: 2001 – 2003
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Service and Leadership
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: AGU Council Member and Publications Committee Chair
+      institution: American Geophysical Union
+      year: 2024 – Present
+    - title: Chair, NASA Mercury Exploration Assessment Group (MExAG)
+      institution: NASA
+      year: 2020 – 2023
+    - title: Editor-in-Chief, Journal of Geophysical Research – Planets
+      institution: American Geophysical Union
+      year: 2015 – 2019
+    - title: MESSENGER Participating Scientist
+      institution: NASA
+      year: 2007 – 2016
+    - title: Inner Planets Panel, Planetary Science Decadal Survey
+      institution: National Research Council
+      year: 2009 – 2010

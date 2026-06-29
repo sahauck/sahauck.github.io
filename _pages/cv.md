@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: /assets/pdf/hauck_cv.pdf
+description: A condensed summary of professional information. For the complete curriculum vitae, use the PDF download link.
 toc:
   sidebar: left
 ---

@@ -37,39 +37,23 @@ Recommended al-folio version to pin to: **v0.16.3** (latest stable as of this wr
 
 ## Phase 2 — Core content migration
 
-8. **[CC]** Draft `_pages/about.md`:
-   - Photo, name, title (Professor and Chair, Planetary Geodynamics), contact info
-   - Short bio drawn from the current "Research Interests" paragraphs (condensed)
-   - Prominent, standalone callout for the postdoc/grad/undergrad research opportunities paragraph — not buried
-   - Decide placement of education/appointments: short version here, full version on CV page (see step 10)
+8. ~~**[CC]** Draft `_pages/about.md`.~~ **DONE 2026-06-22.** WordPress text verbatim + contact info (office 222 A.W. Smith Bldg, phone, steven.hauck@case.edu). Selected improvements approved and applied.
 
-9. **[CC]** Draft `_pages/research.md` (new page, not in al-folio by default):
-   - Two subsections: planetary heat transfer, planetary tectonics — adapted from current Research page text
-   - **[YOU]** Flag: fix or remove the dead `geology.case.edu/~hauck` link to the old Mars page before this is finalized
-   - Facilities content is dropped entirely (decided) — appropriate given the site is no longer framed within a department structure
+9. ~~**[CC]** Draft `_pages/research.md` (new page, not in al-folio by default).~~ **DONE 2026-06-22.** WordPress text as baseline; 8 approved grammatical corrections applied. Facilities content dropped (decided). Dead `geology.case.edu` link was not present in the WordPress research page text.
 
-10. **[CC]** Draft `_pages/cv.md` as a hybrid (decided):
-    - Simplified HTML CV via `_data/cv.yml` — condensed sections (current position, education, appointments, key roles), not a full line-by-line replica of the Word/PDF version
-    - Prominent download link/button to the full CV PDF (you'll continue exporting this from Word as the source of truth, since publications already live on their own page and don't need duplicating in the CV)
-    - **[YOU]** Before finalizing, confirm the appointments dates are still accurate (e.g., "Department Chair, 2019–Present")
-    - Workflow note: each time you update the Word CV, re-export to PDF and replace the file in `assets/pdf/` — the HTML summary on the page won't need to change as often as the full PDF
+10. ~~**[CC]** Draft `_pages/cv.md` as a hybrid (decided).~~ **DONE 2026-06-22.** `_pages/cv.md` links to `assets/pdf/hauck_cv.pdf`. `_data/cv.yml` has four sections: Current Position (map), Education (time_table), Academic Appointments (time_table), Selected Service and Leadership (time_table). Approved improvements applied.
 
-11. **[CC]** Generate `_bibliography/papers.bib` from the ~45 publications listed on the current Publications page:
-    - Correct BibTeX types (`@article` for journal papers, `@incollection` for book chapters like the two "Mercury after the MESSENGER Mission" entries)
-    - `year`, `journal`/`booktitle`, `volume`, `pages`, `doi` fields populated
-    - `html` field pointing to the DOI/journal landing page for each entry (no `pdf` field — links go to DOI, not self-hosted files)
-    - Your name marked for al-folio's author-highlighting (via `_data/coauthors.yml` or theme convention)
-    - **[YOU]** Spot-check a handful of older entries to confirm the DOI links actually resolve to free/open access versions as expected, particularly any pre-DOI-era papers that might only have a journal table-of-contents link rather than a working DOI
+11. ~~**[CC]** Generate `_bibliography/papers.bib` from the ~45 publications listed on the current Publications page:~~ **DONE 2026-06-16; extended 2026-06-19.** Final bib has 70+ entries: research articles, editorials (JGR:Planets reviewer appreciations, AGU Advances), and {other} category (Eos Editor's Vox pieces, whitepapers, Planetary Society blog, Astronomy Magazine Ask Astro, NRC appendix). All DOIs and html links verified active via CrossRef API and direct page fetches — 2026-06-19. Six corrections applied: DOIs added to hauck2017harassment and hauck2015pluto (Eos assigned DOIs retroactively), html added to hauck2013mercurycore, subtitle corrected on dombard2008despinning and weider2015evidence, Fe-FeS→Fe-S in chen2008non title. Four whitepaper PDFs live in assets/pdf/whitepapers/.
 
-12. **[CC]** Configure `_pages/publications.md` to render from the new bibliography, grouped by year (al-folio default behavior).
+12. ~~**[CC]** Configure `_pages/publications.md` to render from the new bibliography, grouped by year (al-folio default behavior).~~ **DONE 2026-06-16.** Two sections: research articles (main) and "Editorials and Other Publications". Uses `category` field in bib entries (`{editorial}`, `{other}`) to split via jekyll-scholar `--query`. `category` added to `filtered_bibtex_keywords` so it's stripped from rendered output. The `{other}` category produces no output until entries are tagged with it.
 
 ---
 
 ## Phase 3 — CV PDF
 
-13. **[YOU]** Export current Word CV to PDF (your existing workflow).
+13. ~~**[YOU]** Export current Word CV to PDF (your existing workflow).~~ **DONE 2026-06-22.**
 
-14. **[CC]** Place CV PDF in `assets/pdf/` and link from `cv.md`.
+14. ~~**[CC]** Place CV PDF in `assets/pdf/` and link from `cv.md`.~~ **DONE 2026-06-22.** File at `assets/pdf/hauck_cv.pdf`; path already wired into `_pages/cv.md` and `_data/socials.yml`.
 
 ---
 
@@ -77,10 +61,7 @@ Recommended al-folio version to pin to: **v0.16.3** (latest stable as of this wr
 
 15. **[YOU]** Photos (decided — yes). Pick a profile photo (current headshot or new) and select 1-3 of your own photographs for use as a banner/header image and/or section accents. Good candidates: a wide-format landscape or action shot that works well cropped to al-folio's banner aspect ratio. **[CC]** can help resize/crop/optimize selected images once chosen, and wire them into the layout via `_config.yml` and the about page front matter.
 
-16. **[CC]** Configure:
-    - `_config.yml`: site title, description, author name, social links (ORCID, Google Scholar — both already known from current Publications page), theme color variable in `_sass/_themes.scss`
-    - Favicon (`assets/img/`)
-    - `og:image` / social preview image, with `serve_og_meta: true`
+16. ~~**[CC]** Configure `_config.yml` and related settings.~~ **DONE 2026-06-22.** Set first_name/last_name (Steven A. / Hauck, II), description, keywords, footer (removed Unsplash credit), favicon emoji (🪐), `serve_og_meta: true`, `inspirehep` badge disabled (no ID). ORCID already wired in `_data/socials.yml`. Google Scholar ID deferred until confirmed.
 
 ---
 

@@ -24,3 +24,28 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Custom overrides
+.banner {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+
+  .banner-img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 4px;
+  }
+}
+
+html {
+  font-size: 110%; // scale all rem-based sizes ~10% larger than browser default
+}
+
+h2.bibliography {
+  color: #A6D2E6 !important;
+  border-top-color: #A6D2E6 !important;
+}

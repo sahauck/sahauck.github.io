@@ -1,0 +1,234 @@
+# Lab members — Planetary Geodynamics Lab
+#
+# current: true  = active member
+# current: false = alumni
+#
+# role must be one of these exact strings (controls grouping and display order):
+#   Postdoctoral Associate
+#   Graduate Student
+#   Undergraduate Researcher
+#
+# years: "2019–present" for current members, "2015–2019" for alumni
+# topic: thesis or project topic (brief phrase)
+# position: where they went after leaving — alumni only, omit or leave blank for current
+# url: personal or institutional website — optional, links their name if provided
+
+
+- name: Ludovic Huguet, Ph.D.
+  role: Postdoctoral Associate
+  years:
+  current: false
+  topic: Nucleation barrier in Earth's core
+  position: University of Leeds
+  url: https://environment.leeds.ac.uk/see/staff/12862/ludovic-huguet
+
+- name: Audrey Martin, Ph.D.
+  role: Postdoctoral Associate
+  years:
+  current: false
+  topic: Melting behavior in multi-component iron alloys
+  position: Lunar and Planetary Institute
+
+- name: Nathalie Michel, Ph.D.
+  role: Postdoctoral Associate
+  years:
+  current: false
+  topic: Mantle convection in Mercury
+  position: Laboratoire d’astrophysique de Marseille
+
+- name: Sara Gutierrez, Ph.D.
+  role: Graduate Student
+  years:
+  current: false
+  topic: Core nucleation and crystallization in the Moon and Ganymede
+  position: 
+  url: https://www.linkedin.com/in/saramgutierrez/
+
+- name: Robert Moore, M.S.
+  role: Graduate Student
+  years:
+  current: false
+  topic: Partititioning of heat producing elements
+  position: University of North Dakota
+  url: https://campus.und.edu/directory/robert.moore.2
+
+- name: Jeff Balcerski, Ph.D.
+  role: Graduate Student
+  years:
+  current: false
+  topic: Crater deformation on Mercury from MESSENGER and viscoelastic relaxation of lunar basins
+  position: Kent State University
+  url: https://www.kent.edu/cae/profile/jeffrey-balcerski-phd
+
+- name: J. Andreas Ritzer, Ph.D.
+  role: Graduate Student
+  years:
+  current: false
+  topic: Gravity and topography analyses of Mars and Mercury
+  position: Department of National Defence, Canada
+  url: https://www.linkedin.com/in/j-andreas-ritzer/
+
+- name: Katelyn Lamm
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Core nucleation in Ganymede
+  position: 
+  url: https://www.linkedin.com/in/katelyn-lamm-b9b382256/
+
+- name: Mariana Blanco-Rojas
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Estimations of seismicity on Mercury
+  position: Graduate Student at Purdue University
+  url: https://www.linkedin.com/in/mariana-blanco-rojas/
+
+- name: Elizabeth Heiny
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Long-wavelength flexure on Mercury
+  position: Graduate Student at Caltech
+  url: https://www.gps.caltech.edu/people/elizabeth-heiny
+
+- name: Megan Masterson, Ph.D. (MIT)
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Models of potential MACRO dark matter impacts on the Moon
+  position: NHFP Einstein Fellow, Harvard University
+  url: https://memasterson.github.io/
+
+- name: Hadley Pantell
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Mantle convection in a tidally locked exoplanet
+  position: Graduate Student at University of Rochester
+  url: https://www.linkedin.com/in/hadley-pantell-17a0a150/
+
+- name: Hannah (Goldberg) Parrilla
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Multi-component crystallization in planetary cores
+  position: Berkeley Lab
+  url: https://www.linkedin.com/in/hannah-parrilla-goldberg-721920125/
+
+
+- name: Patrick Shober, Ph.D. (Curtin University)
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Fe—S—Si eutectic melting
+  position: Postdoc, NASA Johnson Space Center
+  url: https://www.linkedin.com/in/patrick-shober/
+
+- name: Brittany (Adams) Brinn
+  role: Summer Undergraduate Researcher from NC State
+  years:
+  current: false
+  topic: Fe—S—C eutectic melting
+  position: Duke Energy
+  url: https://www.linkedin.com/in/brittney-brinn-922354107/
+
+- name: Nihar Chhatiawala, Ph.D. (Rand School of Public Policy)
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Viscoelastic relaxation of impact basins
+  position: Postdoc, RAND
+  url: https://www.linkedin.com/in/niharc/
+
+
+- name: Zachary Williams
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Lithospheric folding
+  position: UPS
+  url: 
+  
+- name: Emilie Dunham, Ph.D. (Arizona State University)
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Relaxation of impact basins
+  position: Lawrence Fellow, Lawrence Livermore National Laboratory
+  url: https://www.linkedin.com/in/emilie-dunham/
+
+- name: Mark Richardson
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Tectonics on Mars and Mercury
+  position: Graduate Student, University of British Columbia
+  url: 
+
+- name: Rebecca Steely
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: 
+  position: Environmental Specialist, Paragon Business Solutions
+  url: https://www.linkedin.com/in/rebecca-steely-863425129/
+
+
+- name: (Victoria) Peng Sun
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Crater floor deformation -and- thermal evolution of Mercury
+  position: Game Designer, Hoyoverse
+  url: https://www.linkedin.com/in/peng-sun-victoria/
+
+- name: Marinda Mitchell
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: 
+  position: 
+  url: 
+
+- name: Drew Enns
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Lithospheric modeling
+  position: Geotechnical Engineer, Call and Nicholas
+  url: https://www.linkedin.com/in/drew-enns-b8b38a99/
+
+- name: Andrew Opsitnick
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Lithospheric modeling
+  position: Environmental Project Manager, BJAAM
+  url: https://www.linkedin.com/in/andrew-opsitnick-51a147286/
+
+- name: Zachary Newman, Ph.D. (University of Arizona)
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Lithospheric modeling
+  position: Co-founder, Octave Photonics
+  url: https://www.linkedin.com/in/zach-newman-b7306a76/
+
+- name: David Blair, Ph.D. (Purdue University)
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Climate induced tectonics on Mars
+  position: Senior IT Consultant, Brown University
+  url: https://www.linkedin.com/in/dave-blair-969b9b4a/ 
+
+- name: Derek Smith, Ph.D. (Dartmouth University)
+  role: Undergraduate Researcher
+  years:
+  current: false
+  topic: Predicted internal structure of Mercury
+  position: Senior Research Associate, Case Western Reserve University
+  url: https://www.linkedin.com/in/derek-smith-852892150/
+
+
